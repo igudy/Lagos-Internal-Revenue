@@ -84,7 +84,8 @@
 /* Properties and all that */
 .btn-group button {
     background-color: #4CAF50; /* Green background */
-    border: 1px solid green; /* Green border */
+    border: none; /* Green border */
+    border-radius: 15px;
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
@@ -105,4 +106,9 @@
 /* Add a background color on hover */
 .btn-group button:hover {
     background-color: #3e8e41;
+}
+
+
+.vehicle{
+    background-color: #DDEEE2 !important; /* Grey background */
 }
