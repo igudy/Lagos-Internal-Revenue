@@ -1,0 +1,108 @@
+/* Values */
+.values{
+    margin-left: 90px;
+    left: 122px;
+    top: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/* Logo Image */
+.logoImg{
+    height: 37px;
+    width: 117px;
+    left: 101px;
+    top: 35px;
+    border-radius: 0px;
+}
+
+
+/* Rectangle 19 */
+.rectangle19{
+    width: 20x;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    background: #498E5C;
+    border-radius: 10px;
+}
+
+
+/* Properties */
+.properties19{
+    width: 106px;
+    height: 24px;
+    left: 97px;
+    top: 11px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+/* Properties */
+.properties32{
+    width: 106px;
+    height: 24px;
+    left: 97px;
+    top: 11px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* Rectangle 22 */
+.properties32{
+    width: 106px;
+    height: 24px;
+    left: 97px;
+    top: 11px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* Class Table View */
+.table-view{
+    color: #498E5C;
+}
+
+.table-view :hover{
+    color: #c3f1d0;
+}
+
+.table-view :active{
+    color: #498E5C;
+}
+
+
+/* Properties and all that */
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
