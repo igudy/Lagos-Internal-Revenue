@@ -108,7 +108,13 @@
     background-color: #3e8e41;
 }
 
-
 .vehicle{
+    color: green !important;
     background-color: #DDEEE2 !important; /* Grey background */
 }
+
+/* .dashboard::before{
+    border-left: 4px solid white;
+    margin-top: auto;
+    margin-bottom: 20px;
+} */
