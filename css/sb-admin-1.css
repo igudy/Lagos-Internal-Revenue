@@ -133,4 +133,23 @@
     transform: rotate(90deg);
 }
 
+/* Tabs */
+.tabs{
+    color: white;
+    text-decoration: none;
+}
 
+.tabs:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.tabsGreen{
+    color: #3e8e41;
+    text-decoration: none;
+}
+
+.tabsGreen:hover{
+    text-decoration: none;
+    color: #4CAF50;
+}
