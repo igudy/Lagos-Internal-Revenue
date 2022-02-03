@@ -10,9 +10,6 @@
 
     <title>Lagos Internal Revenue</title>
 
-    <!-- Custom fonts for this template-->
-    <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer" />
@@ -46,7 +43,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     <!-- <i class="dashboard"></i> -->
                     <span>DASHBOARD</span></a>
@@ -59,7 +56,7 @@
                 </a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link collapsed" href="#">
                     <i class=""></i>
                     <span>ELIGIBILITY LIST</span>
@@ -320,56 +317,32 @@
                         <div class="container">
                             <!-- Page Heading -->
                             <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                                <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Content Row -->
-                    <div class="row">
-
-                        <!-- Content Column -->
-                        <div class="col-md-12">
-
-                            <!-- Color System -->
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <div class="card bg-success text-white shadow">
-                                        <div class="card-body">
-                                            Properties
-                                            <br><br>
-                                            <div class="text-white-50 small">Total <span class="values">3024</span></div>
+                                <h1 class="h3 mb-0 text-gray-800 recent">Eligibility List</h1>
+                                <button class="btn btn-success" style="margin-right: 20%; width: 200px;">
+                                    ADD NEW USER
+                                </button>
+                                <form class="form-inline my-2 my-lg-0">
+                                      <!-- Another variation with a button -->
+                                      <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <div class="input-group-append">
+                                          <button class="btn btn-success" type="button">
+                                            <i class="fa fa-search"></i>
+                                          </button>
                                         </div>
-                                    </div>
+                                      </div>
+                                      <select class="form-control" id="" style="margin-left: 10px;">
+                                        <option>Filter</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                      </select>
                                 </div>
 
-                                <div class="col-md-3">
-                                    <div class="card bg-danger text-white shadow">
-                                        <div class="card-body">
-                                            Vechicles<br><br>
-                                            <div class="text-white-50 small">Total <span class="values">1400</span></div>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="col-md-3">
-                                    <div class="card bg-primary text-white shadow">
-                                        <div class="card-body">
-                                            Businesses<br><br>
-                                            <div class="text-white-50 small">Total <span class="values">2460</span></div>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="col-md-3">
-                                    <div class="card bg-warning text-white shadow">
-                                        <div class="card-body">
-                                            Taxable Persons<br><br>
-                                            <div class="text-white-50 small">Total <span class="values">1900</span></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -377,15 +350,12 @@
 
 
             <div class="row">
-                <div class="container">
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800 recent"><br>Recent Entries</h1>
-                    </div>
+                <div class="container"><br><br>
                     <div class="btn-group" style="width:100%">
-                        <button class="vehicle" style="width:25%"><a href="index.html" class="tabsGreen">Properties</a></button>
+                        <button style="width:25%"><a href="index.html" class="tabs">Properties</a></button>
                         <button class="vehicle" style="width:25%"><a href="vehiclesTab.html" class="tabsGreen">Vehicles</a></button>
                         <button class="vehicle" style="width:25%"><a href="personsTab.html" class="tabsGreen">Persons</a></button>
-                        <button style="width:25%"><a href="businessesTab.html" class="tabs">Businesses</a></button>
+                        <button class="vehicle" style="width:25%"><a href="businessesTab.html" class="tabsGreen">Businesses</a></button>
                     </div>
 
                     <br>
@@ -400,14 +370,21 @@
                           </tr>
                         </thead>
                         <tbody>
-                            <!--
                             <tr>
                                 <th scope="row">1</th>
                                 <td>Mark</td>
                                 <td>Otto</td>
-                                <td>@mdo</td>
+                                <td>Lagos</td>
                                 <td><a class="table-view" href="#">View</a></td>
-                            </tr> -->
+                            </tr>
+
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>Benin</td>
+                                <td><a class="table-view" href="#">View</a></td>
+                            </tr>
 
                         </tbody>
                       </table>
