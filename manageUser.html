@@ -10,9 +10,6 @@
 
     <title>Lagos Internal Revenue</title>
 
-    <!-- Custom fonts for this template-->
-    <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer" />
@@ -46,7 +43,7 @@
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     <!-- <i class="dashboard"></i> -->
                     <span>DASHBOARD</span></a>
@@ -66,7 +63,7 @@
                 </a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link collapsed" href="#">
                     <i class=""></i>
                     <span>MANAGE USERS</span>
@@ -303,9 +300,12 @@
                                     <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Activity Log
                                 </a>
+
                             </div>
                         </li>
+
                     </ul>
+
                 </nav>
                 <!-- End of Topbar -->
 
@@ -317,75 +317,34 @@
                         <div class="container">
                             <!-- Page Heading -->
                             <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                                <h1 class="h3 mb-0 text-gray-800">Entity Detail</h1>
-                            </div>
-                        <br>
-                        <div style="float: right;">
-                            <img src="img/vector.png" alt="vector_image" style="width: 20%;"><span style="margin-left: 10px;">Completed</span>
-                        </div>
-                       <br><br>
-                            <form>
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                    <label for="property_type">Property Type</label>
-                                    <input type="property_type" class="form-control" id="property_name" placeholder="Duplex">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                    <label for="owners_name">Owner's Name</label>
-                                    <input type="owners_name" class="form-control" id="owners_name" placeholder="Babajide Taofeek">
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="form-group col-md-2">
-                                        <label for="inputAddress">Address</label>
-                                        <input type="text" class="form-control" id="inputAddress" placeholder="24">
+                                <h1 class="h3 mb-0 text-gray-800 recent">Add New User</h1>
+                                <button class="btn btn-success" style="margin-right: 20%; width: 200px;">
+                                    ADD NEW USER
+                                </button>
+                                <form class="form-inline my-2 my-lg-0">
+                                      <!-- Another variation with a button -->
+                                      <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <div class="input-group-append">
+                                          <button class="btn btn-success" type="button">
+                                            <i class="fa fa-search"></i>
+                                          </button>
                                         </div>
-
-
-                                        <div class="form-group col-md-4">
-                                        <label for="inputLGA">LGA/LGDA</label>
-                                        <select id="inputLGA" class="form-control">
-                                            <option selected>Olusunkanmi Street</option>
-                                            <option>Choose...</option>
-                                        </select>
-                                        </div>
-
-
-                                        <div class="form-group col-md-4">
-                                        <label for=""></label><div style="margin-top: 8px;"></div>
-                                        <input type="text" class="form-control" id="" placeholder="Igado-Ikotun">
-                                        </div>
-
-                                        <div class="form-group col-md-2">
-                                        <label for=""></label><div style="margin-top: 8px;"></div>
-                                        <input type="text" class="form-control" id="" placeholder="Lagos">
-                                        </div>
+                                      </div>
+                                      <select class="form-control" id="" style="margin-left: 10px;">
+                                        <option>Filter</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                      </select>
                                 </div>
 
 
-                                <div class="form-row">
-                                    <div class="form-group col-md-3">
-                                    <label for="inputLongitude">Longitude</label>
-                                    <input type="text" class="form-control" id="inputLongitude" placeholder="3345352">
-                                    </div>
 
-                                    <div class="form-group col-md-3">
-                                    <label for="inputLatitude">Latitude</label>
-                                    <input type="text" class="form-control" id="inputLatitude" placeholder="7894612">
-                                    </div>
 
-                                    <div class="form-group col-md-6">
-                                    <label for=""></label><div style="margin-top: 8px;"></div>
-                                    <input type="text" class="form-control" id="" placeholder="Beside Soft Stone Bakery">
-                                    </div>
-                                </div>
-                                <button type="submit" class="btn btn-danger" style="float: right; width: 180px;">CLOSE</button>
-                            </form>
                         </div>
                     </div>
-
-                    <!-- Content Row -->
                 </div>
                 <!-- /.container-fluid -->
 
